@@ -26,5 +26,27 @@ public class GameState {
     this.log=log; 
     }
     
+    public String getLabyrinth(){
+        return labyrinth;
+    }
     
+    public String getPlayers(){
+        return players;
+    }
+    
+    public String getMonster(){
+        return monsters;
+    }
+    
+    public int getCurrentPlayer(){
+        return currentPlayer;
+    }
+    
+    public boolean getWinner(){
+        return winner;
+    }
+    
+    public String getLog(){
+        return log;
+    } 
 }
